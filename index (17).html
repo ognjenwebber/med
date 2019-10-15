@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Courgette|Sanchez&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+.sli { font-family: 'Abril Fatface', cursive;
+       font-size:35px;
+	   padding-left:0.3em;
+	   
+	   }
+.farma {
+         color:Gray;
+		 font-size:23px;
+		 font-family: 'Courgette', cursive;
+		 }
+	   
+.pcela {
+  width: 80px;
+  height: 80px;
+  background:url('http://freepngdownload.com/image/thumb/bee-png.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  
+  position:absolute;
+  top:-5em;
+  left:18em;
+
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay:1s;
+}
+
+.medic {height:20em;
+        width:20em;
+		padding-top:20em;
+		}
+
+
+.h:hover {
+           color:yellow;
+		   }
+
+
+/* Standard syntax */
+@keyframes example {
+  0%   { left:left:18em; top:3em;}
+  10%  { right:25em; top:4em;}
+  25%  { left:8em; bottom:2em;}
+  50%  { right:15em; top:10em;}
+  75%  { left:4em; top:10em;}
+  90% { right:25em; bottom:3em;}
+  100% {left:2em; top:5em;}
+}
+
+ul.w3-ul a{
+  text-decoration:none;
+  }
+
+.g  {
+        background:rgba(0,0,0,0.5);
+		
+		}
+		
+body {
+		margin-right:auto 10em;
+		
+		background:url('https://media.licdn.com/dms/image/C4D1BAQGVizLp6mDqnw/company-background_10000/0?e=2159024400&v=beta&t=-1t-vkSraRlhBsZWDC6mx_Y_ktc6MJCsRnPR_1aR3oo');
+	
+		
+		}
+</style>
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card  style="padding:1.2em">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars" style="box-shadow:20px 20px black"></i></a>
+    <a href="#" class="w3-bar-item  w3-padding-large w3-hover-text-yellow" style="font-family:'Courgette', cursive;font-size:17px;">Početna</a>
+    <a href="#" class="w3-bar-item w3-padding-large w3-hover-text-yellow w3-hide-small "style="font-family:'Courgette', cursive;font-size:17px;" >O nama</a>
+    <a href="#tour" class="w3-bar-item  w3-padding-large w3-hover-text-yellow  w3-hide-small" style="float:right;font-family:'Courgette', cursive;font-size:17px;">Kontakt</a>
+    <a href="#" class="w3-bar-item  w3-padding-large w3-hover-text-yellow" style="font-family:'Courgette', cursive;font-size:17px;">Proizvodi</a>
+    <a href="#" class="w3-bar-item  w3-padding-large w3-hover-text-yellow" style="font-family:'Courgette', cursive;font-size:17px;">Galerija</a>
+ 
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top " style=top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-hover-khaki  w3-padding-large" onclick="myFunction()" style="font-family:'Courgette', cursive;">POČETNA</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-hover-khaki w3-padding-large" onclick="myFunction()" style="font-family:'Courgette', cursive;">O NAMA</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hover-khaki w3-padding-large" onclick="myFunction()" style="font-family:'Courgette', cursive;">KONTAKT</a>
+
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px;">
+
+  <!-- Automatic Slideshow Images -->
+  <h1 style="margin-left:160px;">
+  <img src="http://clipart-library.com/img/1594405.png" alt="zlatna plaketa" style="height:2em;width:8em;position:relative;top:2.3em;left:-2.2em;z-index:-1;"> <br>
+  <span class="farma">Farma Pčela </span>
+  <br>
+  <span class="sli"> Grujić </span> </h1>
+  <div class="mySlides w3-display-container w3-center">
+  <div class="pcela"> </div>
+    <img src=https://i0.wp.com/jugpress.com/wp-content/uploads/2016/07/Trgoviste-farma-kunica.jpg?resize=706%2C437&ssl=1"" style="width:80%;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3 class="g">Najbolje iz prirode</h3>
+      <p class="g"><b>Sa naše farme u vaše domove!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <div class="pcela"> </div>
+
+    <img src="http://mojafarma.ba/wp-content/uploads/2017/11/p%C4%8Delarstvo-za-po%C4%8Detnike-678x381.jpg" style="width:80%;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small ">
+      <h3 class="g">Najbolje iz prirode</h3>
+      <p class="g"><b>Sa naše farme u vaše domove!</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <div class="pcela"> </div>
+    <img src="http://www.berkshirehillshoneybeefarm.com/wp-content/uploads/2016/06/Ivan-at-yd-D-with-2-swarms7-2-13-045.jpg" style="width:80%;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3 class="g">Najbolje iz prirode</h3>
+      <p class="g"><b>Sa naše farme u vaše domove!</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64 w3-white" style="max-width:800px" id="band">
+    <h2 class="w3-wide">NAŠ MED JE BREND</h2>
+    <p class="w3-opacity"><i>kupi teglu ako si frend</i></p>
+    <p class="w3-justify">We have created a fictional honey farm website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-row w3-padding-32 w3-white">
+      <div class="w3-third">
+        <p>Bagremov med</p>
+        <img src="https://i.dlpng.com/static/png/232984_preview.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Šumski med</p>
+        <img src="http://www.pngmart.com/files/7/Jar-Of-Honey-PNG-Clipart-279x279.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:68%">
+      </div>
+      <div class="w3-third">
+        <p>Saće u medu </p>
+        <img src="http://assets.stickpng.com/thumbs/5a188c0a8d421802430d2d17.png" class="w3-round" alt="Random Name" style="width:68%">
+      </div>
+    </div>
+  </div>
+  
+   <div class="w3-container w3-content w3-center w3-padding-64 w3-white" style="max-width:800px" id="band">
+    <h2 class="w3-wide">O NAMA</h2>
+    
+    <p class="w3-justify">We have created a fictional honey farm website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+  <img  src="https://i.dlpng.com/static/png/139679_preview.png">
+      <h2 class="w3-wide w3-center">GALERIJA</h2>
+      <p class="w3-opacity w3-center"><i>Osetite delić atmosfere sa naše farme</i></p><br>
+
+<div class="w3-content" style="max-width:1200px">
+ <img class="mySlides" src="https://southaustralia.com/-/media/Feature/Products/ATDW-Images/2019/02/19/14/50/599a79a198b3950e668afa71.jpeg?as=1&hash=6148802A9760A781292BFE536C40014D22B3AB1F" style="width:100%;display:none"> 
+  <img class="mySlides" src="https://photos.wikimapia.org/p/00/05/28/53/67_big.jpg" style="width:100%">
+  <img class="mySlides" src="https://media.licdn.com/dms/image/C4D1BAQGVizLp6mDqnw/company-background_10000/0?e=2159024400&v=beta&t=-1t-vkSraRlhBsZWDC6mx_Y_ktc6MJCsRnPR_1aR3oo" style="width:100%;display:none"> </a>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4"> 
+ <a href="https://southaustralia.com/-/media/Feature/Products/ATDW-Images/2019/02/19/14/50/599a79a198b3950e668afa71.jpeg?as=1&hash=6148802A9760A781292BFE536C40014D22B3AB1F">     <img class="demo w3-opacity w3-hover-opacity-off" src= "https://southaustralia.com/-/media/Feature/Products/ATDW-Images/2019/02/19/14/50/599a79a198b3950e668afa71.jpeg?as=1&hash=6148802A9760A781292BFE536C40014D22B3AB1F"" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+  <a href="https://photos.wikimapia.org/p/00/05/28/53/67_big.jpg">    <img class="demo w3-opacity w3-hover-opacity-off"
+      src="https://photos.wikimapia.org/p/00/05/28/53/67_big.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)"> </a>
+    </div>
+    <div class="w3-col s4">
+   <a href="https://media.licdn.com/dms/image/C4D1BAQGVizLp6mDqnw/company-background_10000/0?e=2159024400&v=beta&t=-1t-vkSraRlhBsZWDC6mx_Y_ktc6MJCsRnPR_1aR3oo">   <img class="demo w3-opacity w3-hover-opacity-off" src="https://media.licdn.com/dms/image/C4D1BAQGVizLp6mDqnw/company-background_10000/0?e=2159024400&v=beta&t=-1t-vkSraRlhBsZWDC6mx_Y_ktc6MJCsRnPR_1aR3oo" style="width:80%;cursor:pointer" onclick="currentDiv(3)"> </a>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4"> 
+ <a href="https://southaustralia.com/-/media/Feature/Products/ATDW-Images/2019/02/19/14/50/599a79a198b3950e668afa71.jpeg?as=1&hash=6148802A9760A781292BFE536C40014D22B3AB1F">     <img class="demo w3-opacity w3-hover-opacity-off" src= "https://southaustralia.com/-/media/Feature/Products/ATDW-Images/2019/02/19/14/50/599a79a198b3950e668afa71.jpeg?as=1&hash=6148802A9760A781292BFE536C40014D22B3AB1F"" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+  <a href="https://photos.wikimapia.org/p/00/05/28/53/67_big.jpg">    <img class="demo w3-opacity w3-hover-opacity-off"
+      src="https://photos.wikimapia.org/p/00/05/28/53/67_big.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)"> </a>
+    </div>
+    <div class="w3-col s4">
+   <a href="https://media.licdn.com/dms/image/C4D1BAQGVizLp6mDqnw/company-background_10000/0?e=2159024400&v=beta&t=-1t-vkSraRlhBsZWDC6mx_Y_ktc6MJCsRnPR_1aR3oo">   <img class="demo w3-opacity w3-hover-opacity-off" src="https://media.licdn.com/dms/image/C4D1BAQGVizLp6mDqnw/company-background_10000/0?e=2159024400&v=beta&t=-1t-vkSraRlhBsZWDC6mx_Y_ktc6MJCsRnPR_1aR3oo" style="width:80%;cursor:pointer" onclick="currentDiv(3)"> </a>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4"> 
+ <a href="https://southaustralia.com/-/media/Feature/Products/ATDW-Images/2019/02/19/14/50/599a79a198b3950e668afa71.jpeg?as=1&hash=6148802A9760A781292BFE536C40014D22B3AB1F">     <img class="demo w3-opacity w3-hover-opacity-off" src= "https://southaustralia.com/-/media/Feature/Products/ATDW-Images/2019/02/19/14/50/599a79a198b3950e668afa71.jpeg?as=1&hash=6148802A9760A781292BFE536C40014D22B3AB1F"" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+  <a href="https://photos.wikimapia.org/p/00/05/28/53/67_big.jpg">    <img class="demo w3-opacity w3-hover-opacity-off"
+      src="https://photos.wikimapia.org/p/00/05/28/53/67_big.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)"> </a>
+    </div>
+    <div class="w3-col s4">
+   <a href="https://media.licdn.com/dms/image/C4D1BAQGVizLp6mDqnw/company-background_10000/0?e=2159024400&v=beta&t=-1t-vkSraRlhBsZWDC6mx_Y_ktc6MJCsRnPR_1aR3oo">   <img class="demo w3-opacity w3-hover-opacity-off" src="https://media.licdn.com/dms/image/C4D1BAQGVizLp6mDqnw/company-background_10000/0?e=2159024400&v=beta&t=-1t-vkSraRlhBsZWDC6mx_Y_ktc6MJCsRnPR_1aR3oo" style="width:80%;cursor:pointer" onclick="currentDiv(3)"> </a>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4"> 
+ <a href="https://southaustralia.com/-/media/Feature/Products/ATDW-Images/2019/02/19/14/50/599a79a198b3950e668afa71.jpeg?as=1&hash=6148802A9760A781292BFE536C40014D22B3AB1F">     <img class="demo w3-opacity w3-hover-opacity-off" src= "https://southaustralia.com/-/media/Feature/Products/ATDW-Images/2019/02/19/14/50/599a79a198b3950e668afa71.jpeg?as=1&hash=6148802A9760A781292BFE536C40014D22B3AB1F"" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+  <a href="https://photos.wikimapia.org/p/00/05/28/53/67_big.jpg">    <img class="demo w3-opacity w3-hover-opacity-off"
+      src="https://photos.wikimapia.org/p/00/05/28/53/67_big.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)"> </a>
+    </div>
+    <div class="w3-col s4">
+   <a href="https://media.licdn.com/dms/image/C4D1BAQGVizLp6mDqnw/company-background_10000/0?e=2159024400&v=beta&t=-1t-vkSraRlhBsZWDC6mx_Y_ktc6MJCsRnPR_1aR3oo">   <img class="demo w3-opacity w3-hover-opacity-off" src="https://media.licdn.com/dms/image/C4D1BAQGVizLp6mDqnw/company-background_10000/0?e=2159024400&v=beta&t=-1t-vkSraRlhBsZWDC6mx_Y_ktc6MJCsRnPR_1aR3oo" style="width:80%;cursor:pointer" onclick="currentDiv(3)"> </a>
+    </div>
+  </div>
+</div>
+
+
+       
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+	   <h2 class="w3-wide w3-center" style="padding-top:3em";> NAŠI PROIZVODI</h2>
+      <p class="w3-opacity w3-center"><i>Najbolje iz prirode za vas</i></p><br>
+        <div class="w3-third w3-margin-bottom">
+        
+          <div class="w3-container w3-white">
+            <p><b>Bagremov Med</b></p>
+            <p class="w3-opacity">Premium kvalitet-100% prirodno!</p>
+             <img src="http://www.pcelarskafarmazivkovic.rs/img/proizvodi/bagremov_med_1kg.jpg" alt="bagremovmed" width="38px">
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Saznaj više</button>
+          </div>
+        </div>
+		
+		
+        <div class="w3-third w3-margin-bottom">
+         
+          <div class="w3-container w3-white">
+            <p><b>Šumski med</b></p>
+            <p class="w3-opacity">Premium kvalitet-100% prirodno!</p>
+			<img src="http://www.pcelarskafarmazivkovic.rs/img/proizvodi/sumski_med_1kg.jpg" alt="šumski_med" width="38px">
+            
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal1').style.display='block'">Saznaj više</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+        
+          <div class="w3-container w3-white">
+            <p><b>Saće u medu</b></p>
+            <p class="w3-opacity">Premium kvalitet-100% prirodno!</p>
+           <img src="http://www.pcelarskafarmazivkovic.rs/img/proizvodi/sace_u_medup500g.jpg" alt="šumski_med" width="38px";>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal3').style.display='block'">Saznaj više</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center w3-padding-32" style="color:white;background:url('https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c1b0.png');background-repeat:no-repeat;background-size:contain;"> 
+       
+        <h2 class="w3-wide">Bagremov Med</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Cena po kilogramu 20KM</label></p>
+		
+		 Bagremov med - Prijatnog je mirisa i ukusa, gotovo proziran, kristališe sporo. Bagremov med je medju potrošačima naročito cenjen zbog toga sto se teško i sporo kristališe zbog velikog sadržaja fruktoze i glukoze. Preporučuje se za ishranu dece i starijih osoba, kao i za lečenje stomačno-crevnih oboljenja, kod bolesnika sa smetnjama u varenju, kod oboljenja jetre, bubrežnih oboljenja, a deluje i umirujuće na organizam. Njegovom primenom, ali isključivo pod lekarskim nadzorom i kontrolom, može se postići antidijabetičarski efekat. Koristan je protiv nazeba i za iskašljavanje. svakodnevna upotreba meda jača imunobiološku sposobnost organizma i njegovu sposobnost da se brani od virusa i bakterija.
+       
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Zatvori <i class="fa fa-remove"></i></button>
+    
+      </div>
+    </div>
+  </div>
+
+  <div id="ticketModal1" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center w3-padding-32" style="color:white;background:url('http://www.pngplay.com/wp-content/uploads/1/Honey-PNG.png');background-repeat:no-repeat;background-size:contain;position:relative;right:0;">
+      
+        <h2 class="w3-wide">Šumski med</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Cena po kilogramu-20KM</label></p>
+		
+		 Šumski med - Ovo je jedan od tamnih vrsta meda, oporog ukusa, ali je zbog visokog sadržaja mineralnih materija veoma cenjen. Pokazao se izuzetno efikasnim za lečenje anemije upravo zbog velikog sadržaja mineralnih materija. Poseduje i antiseptičko, umirujuće i laksativno dejstvo. Povoljno deluje na rad jetre i bubrega. Prinosi ove vrste meda su relativno oskudni, pa je samim tim manje zastupljen na tržištu. Kristališe krupnim zrncima, nankon dužeg stajanja
+       
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal1').style.display='none'">Zatvori <i class="fa fa-remove"></i></button>
+    
+      </div>
+    </div>
+  </div>
+  
+  
+  <div id="ticketModal3" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center w3-padding-32" style="color:white;background:url('http://pngimg.com/uploads/honey/honey_PNG11560.png');background-repeat:no-repeat;background-size:contain;position:relative;right:0;">
+      
+        <h2 class="w3-wide">Saće u medu </h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Cena po kilogramu-10KM</label></p>
+		
+		 <p>Žvakanje voska iz saća i voštanih poklopaca izuzetno je korisno za sluzokožu disajnih organa. Takođe utiče i na regeneraciju plućnog tkiva, te se preporučuje pušačima. Vosak iz saća deluje anti-alergijski.U medicini se pouzdano zna da oni koji često žvaću saće sa medom retko oboljevaju od nazeba, upale sinusa i prehlade.Kod upale sinusa ili zapušenog nosa preporučuje se žvakanje saća tri puta dnevno što duže kao žvaka.Ako se proguta saće vosak oblaže sluzokožu želuca i creva pa se preporučuje kod problema sa probavom, gastritisom i čirom.              </p>
+       
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal3').style.display='none'">Zatvori <i class="fa fa-remove"></i></button>
+    
+      </div>
+    </div>
+  </div>
+  
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64 w3-white" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">KONTAKT</h2>
+    <p class="w3-opacity w3-center"><i>Poručite</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Bijeljina, BiH<br>
+        <i class="fa fa-phone" style="width:30px"></i> Telefon: +00 387 65 225 883 <br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: pcelegrujic.com@hotmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Vaše ime" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Poruka" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">Pošalji</button>
+        </form>
+      </div>
+    </div>
+  </div>
+    <div class="w3-container w3-content w3-padding-64 w3-white" style="max-width:800px" id="contact">
+ <div style="text-align:center"> <img src="https://i.ibb.co/RBCHsCf/os.png" alt="Grujiclogo" text-align="center" width="50%">
+  </div>
+  </div>
+<!-- End Page Content -->
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge" style="width:100%;">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.facebook.com/ognjen.slijepcevic" target="_blank">Ognjen Slijepčević</a></p>
+</footer>
+
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+<script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+      
+</body>
+</html>
